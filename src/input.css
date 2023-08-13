@@ -10,5 +10,13 @@ html {
 }
 
 .nav_link {
-  @apply text-2xl font-semibold text-[#181b21] mx-[0.8rem] px-[0.8rem] py-[0.4rem] rounded-[0.8rem] bg-transparent hover:bg-[#181b21] hover:bg-opacity-10 transition-all duration-300;
+  @apply text-2xl font-semibold text-[#181b21] mx-[0.8rem] px-[0.8rem] py-[0.4rem] rounded-[0.8rem] bg-transparent hover:bg-[#181b21] hover:bg-opacity-10 transition-all duration-300 lg:text-xl xl:text-2xl 2xl:text-[2.3rem];
+}
+
+.btn1 {
+  @apply text-2xl text-white bg-[#171a20] font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.2rem] w-[25.5rem] h-16 bg-opacity-80 2xl:text-[2rem] 2xl:w-[30rem] 2xl:h-20;
+}
+
+.btn2 {
+  @apply text-2xl text-[#393c41] bg-white font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.2rem] w-[25.5rem] h-16 bg-opacity-60 lg:ml-8 2xl:text-[2rem] 2xl:w-[30rem] 2xl:h-20;
 }
